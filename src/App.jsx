@@ -6,7 +6,9 @@
 // import StateExample from "./core-concepts/05-state/StateExample"
 // import EventHandlingExample from "./core-concepts/06-eventhandling/EventHandlingExample"
 // import SimpleForm from "./core-concepts/06-eventhandling/SimpleForm"
-import ListExample from "./core-concepts/07-list-keys/ListExample"
+// import ListExample from "./core-concepts/07-list-keys/ListExample"
+import TaskManager from "./core-concepts/08-task-manager/TaskManager"
+import "./App.css"
 
 function App() {
   // return <HelloWorld/>
@@ -17,7 +19,8 @@ function App() {
   // return <StateExample/>
   // return <EventHandlingExample/>
   // return <SimpleForm/>
-  return <ListExample/>
+  // return <ListExample/>
+  return <TaskManager/>
 }
 
 export default App

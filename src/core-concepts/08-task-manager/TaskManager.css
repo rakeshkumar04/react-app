@@ -1,0 +1,39 @@
+.add-task-button {
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.add-task-input {
+    background-color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.add-task-action {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.task-list li{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 10px;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    border: 2px solid grey;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.task-list .completed {
+    text-decoration: line-through;
+}
+
+.task-list .delete {
+    background-color: red;
+    padding: 0px 10px;
+    color: aliceblue;
+}
