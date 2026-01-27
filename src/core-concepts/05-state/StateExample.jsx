@@ -3,7 +3,7 @@ import { useState } from "react"
 export default function StateExample() {
 
     const[count, setCount] = useState(0);
-    console.log("Component Rendered")
+    // console.log("Component Rendered")
     //It Renders Every Time State Changes - It renders two times because of StrictMode
 
     const handleClick = () =>{
