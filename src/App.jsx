@@ -2,6 +2,7 @@ import HelloWorld from "./core-concepts/01-helloworld/HelloWorld"
 import Greeting from "./core-concepts/02-components/Greeting"
 import GreetingClass from "./core-concepts/02-components/GreetingClass"
 import JSXExample from "./core-concepts/03-jsx/JSXExample"
+import PropsExample from "./core-concepts/04-props/PropsExample"
 
 function App() {
   // return <HelloWorld/>
@@ -10,7 +11,9 @@ function App() {
 
   // return <GreetingClass/>
 
-  return <JSXExample/>
+  // return <JSXExample/>
+
+  return <PropsExample title="Welcome to my App" tech="React"/>
 }
 
 export default App
