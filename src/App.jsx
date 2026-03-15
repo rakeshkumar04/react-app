@@ -9,6 +9,11 @@
 // import ListExample from "./core-concepts/07-list-keys/ListExample"
 import TaskManager from "./core-concepts/08-task-manager/TaskManager"
 import "./App.css"
+import UseStateExample from "./hooks/01-usestate/UseStateExample"
+import UseReducerExample from "./hooks/02-usereducer/UseReducerExample"
+import UseActionStateExample from "./hooks/03-useactionstate/UseActionStateExample"
+import UseFormStatusExample from "./hooks/04-useformstatus/UseFormStatusExample"
+import UseEffectExample from "./hooks/05-useeffect/UseEffectExample"
 
 function App() {
   // return <HelloWorld/>
@@ -20,7 +25,11 @@ function App() {
   // return <EventHandlingExample/>
   // return <SimpleForm/>
   // return <ListExample/>
-  return <TaskManager/>
+  // return <TaskManager/>
+  // return <UseReducerExample/>
+  // return <UseActionStateExample/>
+
+  return <UseEffectExample/>
 }
 
 export default App
